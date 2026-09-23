@@ -13,7 +13,7 @@ anno-server-22.
 Install
 -------
 
-1.  Installing this plugin assumes you already have installed
+1.  Installing this plugin assumes you have already installed
     [`anno-server-22`](https://github.com/UB-Heidelberg/anno-server-22).
 1.  In (the top level of) your anno server directory,
     as the anno server user,
