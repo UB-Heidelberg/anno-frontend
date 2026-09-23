@@ -1,5 +1,5 @@
 { "name": "as22-plugin-html-sanitizer",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Plugin stub to allow the anno-frontend HTML sanitizer plugin to also run in anno-server-22.",
   "keywords": [],
 
@@ -20,7 +20,7 @@
 
   "private": false, "license": "MIT",
 
-  "main": "plugin.sanitize-html.js",
+  "main": "index.mjs",
   "scripts": { "test": "elp && nodemjs test/all.mjs" },
   "directories": { "test": "test" },
   "eslintConfig": { "extends": "nodejs-pmb" },
@@ -39,5 +39,5 @@
   },
 
 
-  "engines": { "npm": ">=7.0.0", "node": ">=16.0.0" }
+  "engines": { "npm": ">=7.0.0", "node": ">=24.0.0" }
 }

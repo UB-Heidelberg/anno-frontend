@@ -2,7 +2,7 @@
 import eq from 'equal-pmb';
 import saniLib from 'sanitize-html';
 
-import pkgManif from './package.json';
+import pkgManif from './package.json' with { type: 'json' };
 
 
 const EX = {
